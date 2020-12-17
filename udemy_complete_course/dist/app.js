@@ -39,3 +39,13 @@ console.log(numAdd);
 var subtract = function (a, b) {
     a - b;
 };
+var todayWeather = {
+    date: new Date(),
+    weather: 'Sunny'
+};
+var logWeather = function (_a) {
+    var date = _a.date, weather = _a.weather;
+    console.log(date);
+    console.log(weather);
+};
+logWeather(todayWeather);
